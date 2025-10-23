@@ -1,4 +1,4 @@
-import { NextRequest } from 'next/server';
+import { type NextRequest } from 'next/server';
 import { comments } from './data';
 
 const GET = async (req: NextRequest) => {
